@@ -4,7 +4,7 @@
 
 ## App Screenshots
 
-![Screenshot1](./public/images/screenshot1.JPG)
+![Screenshot1](./components/assets/images/screenshot1.JPG)
 ![Screenshot2](./public/images/screenshot2.JPG)
 ![Screenshot3](./public/images/screenshot3.JPG)
 
