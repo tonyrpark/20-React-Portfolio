@@ -6,6 +6,8 @@ import AboutMe from "./components/AboutMe";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           </Route>
           <Route exact path={"/aboutme"}>
             <AboutMe />
+          </Route>
+          <Route exact path={"/portfolio"}>
+            <Portfolio />
+          </Route>
+          <Route exact path={"/contact"}>
+            <Contact />
           </Route>
           {/* <Route exact path="/books/:id">
             <Detail />

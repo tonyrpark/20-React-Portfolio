@@ -1,5 +1,10 @@
 import React from "react";
 import tonyAndJess from "./assets/images/tonyAndJess.jpg";
+import GitHub from "./assets/images/githubSquare.png";
+import linkedIn from "./assets/images/linkedIn.png";
+import stackoverflow from "./assets/images/stackoverflow.png";
+import resume from "./assets/images/resume.png";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -35,6 +40,10 @@ const AboutMe = () => {
           Diego. He is currently working on his Master's of Cybersecurity
           Engineering at the University of San Diego. In December 2020, he began
           the full-stack web development bootcamp at UC San Diego extension.
+          Check out my{" "}
+          <a href="https://1drv.ms/b/s!Aqy4FmsQotGbhPBggZNYBepDpcOrUA">
+            resume here.
+          </a>
         </p>
       </section>
 
@@ -43,22 +52,14 @@ const AboutMe = () => {
           <h2>Connect with Me</h2>
 
           <a target="_blank" href="https://github.com/tonyrpark">
-            <img
-              src="assets/images/githubSquare.png"
-              className="social"
-              alt="GitHub Icon"
-            />
+            <img src={GitHub} className="social" alt="GitHub Icon" />
           </a>
 
           <a
             target="_blank"
             href="https://www.linkedin.com/in/tony-park-8845935a/"
           >
-            <img
-              src="assets/images/linkedIn.png"
-              className="social"
-              alt="LinkedIn Icon"
-            />
+            <img src={linkedIn} className="social" alt="LinkedIn Icon" />
           </a>
 
           <a
@@ -66,7 +67,7 @@ const AboutMe = () => {
             href="https://stackoverflow.com/users/14846612/tony-park"
           >
             <img
-              src="assets/images/stackoverflow.png"
+              src={stackoverflow}
               className="socialstack"
               alt="StackOverflow Icon"
             />

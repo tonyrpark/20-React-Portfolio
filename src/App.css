@@ -109,10 +109,11 @@ nav ul li {
 
 /*********************** HEADER MAIN OFFER BUTTON ***********************/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  /* border: 1px solid rgb(163, 159, 159); */
+  background-color: #d72323;
+  /* text-transform: uppercase; */
+  border-radius: 10px;
+  padding: 0.725rem 0.85rem 0.85rem 0.85rem;
   color: var(--primary-white);
   margin: 2rem;
 }
@@ -154,7 +155,7 @@ nav ul li {
 
 /* header */
 
-/* #masthead {
+#masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -163,7 +164,7 @@ nav ul li {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
-} */
+}
 
 #logo {
   float: left;
