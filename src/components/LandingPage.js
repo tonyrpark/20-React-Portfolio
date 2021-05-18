@@ -1,7 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-router-dom";
 
-const Header = () => {
+const LandingPage = () => {
   return (
     <div className="header-wrapper">
       <div className="main-info">
@@ -26,12 +27,12 @@ const Header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <Link to="/aboutme" className="btn-main-offer">
           About Me
-        </a>
+        </Link>
       </div>
     </div>
   );
 };
 
-export default Header;
+export default LandingPage;
