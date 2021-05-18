@@ -4,7 +4,7 @@ import GitHub from "./assets/images/githubSquare.png";
 import linkedIn from "./assets/images/linkedIn.png";
 import stackoverflow from "./assets/images/stackoverflow.png";
 import resume from "./assets/images/resume.png";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const AboutMe = () => {
   return (
