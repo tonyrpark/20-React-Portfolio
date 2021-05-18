@@ -12,6 +12,27 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
+      <Particles
+        className="particles-canvas"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900,
+              },
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00",
+              },
+            },
+          },
+        }}
+      />
       <div>
         <Navbar />
         <Switch>
@@ -27,43 +48,10 @@ function App() {
           <Route exact path={"/contact"}>
             <Contact />
           </Route>
-          {/* <Route exact path="/books/:id">
-            <Detail />
-          </Route>
-          <Route>
-            <NoMatch />
-          </Route> */}
         </Switch>
       </div>
     </Router>
   );
-  // return (
-  //   <>
-  //     <Particles
-  //       className="particles-canvas"
-  //       params={{
-  //         particles: {
-  //           number: {
-  //             value: 30,
-  //             density: {
-  //               enable: true,
-  //               value_area: 900,
-  //             },
-  //           },
-  //           shape: {
-  //             type: "circle",
-  //             stroke: {
-  //               width: 6,
-  //               color: "#f9ab00",
-  //             },
-  //           },
-  //         },
-  //       }}
-  //     />
-  //     <Navbar />
-  //     <Header />
-  //   </>
-  // );
 }
 
 export default App;
